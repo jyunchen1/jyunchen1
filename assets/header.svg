@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" fill="none" role="img" aria-label="Cairn Studio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1b2536"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef2f8"/>
+      <stop offset="0.5" stop-color="#aeb9c8"/>
+      <stop offset="1" stop-color="#68758a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.28" r="0.55">
+      <stop offset="0" stop-color="#42536f" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#42536f" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="round"><rect x="0" y="0" width="1200" height="340" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#glow)"/>
+
+    <!-- cairn mark -->
+    <ellipse cx="600" cy="176" rx="72" ry="9" fill="#000" fill-opacity="0.28"/>
+    <g stroke="#0d1524" stroke-width="1.4">
+      <rect x="536" y="142" width="128" height="34" rx="17" fill="url(#stone)"/>
+      <rect x="549" y="114" width="102" height="30" rx="15" fill="url(#stone)"/>
+      <rect x="561" y="89"  width="78"  height="27" rx="13" fill="url(#stone)"/>
+      <rect x="573" y="68"  width="54"  height="24" rx="12" fill="url(#stone)"/>
+    </g>
+    <g fill="#ffffff" fill-opacity="0.38">
+      <ellipse cx="566" cy="152" rx="17" ry="4.5"/>
+      <ellipse cx="577" cy="123" rx="13" ry="4"/>
+      <ellipse cx="587" cy="97"  rx="10" ry="3.4"/>
+      <ellipse cx="593" cy="76"  rx="8"  ry="3"/>
+    </g>
+
+    <!-- wordmark -->
+    <text x="602" y="242" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="64" font-weight="600" letter-spacing="7" fill="#f2f6fb">Cairn Studio</text>
+    <rect x="556" y="260" width="92" height="2" rx="1" fill="#8aa0bd" fill-opacity="0.7"/>
+    <!-- tagline -->
+    <text x="602" y="294" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="5" fill="#9fb0c7">SOFTWARE ENGINEERING · SELF-HOSTED INFRA · GAME-SERVER OPS</text>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="338.5" rx="18" fill="none" stroke="#3a4a63" stroke-opacity="0.6" stroke-width="1.5"/>
+</svg>
