@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/jyunchen1/jyunchen1/main/assets/header.svg" width="100%" alt="Cairn Studio" />
-
 # 築石工作室 · Cairn Studio
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=94A3B8&center=true&vCenter=true&width=560&height=45&lines=Full-stack%20software%20engineer;Self-hosted%20infrastructure%20%26%20DevOps;Designing%20reliable%20web%20systems;Operating%20game%20servers%20at%20scale" alt="typing" />
